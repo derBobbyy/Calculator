@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+* linguist-vendored
+*.cpp linguist-vendored=false
+*.jar linguist-vendored=false
+*.cs linguist-vendored=true
